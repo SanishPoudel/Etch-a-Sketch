@@ -10,15 +10,18 @@ button.addEventListener
 (
     "click", () =>
     {
-        let n = prompt("Enter number of squares per side for the new grid.");
-        while (n > 100)
+        let squares_per_side = prompt("Enter number of squares per side for the new grid.");
+        while (squares_per_side > 100)
         {
-            n = prompt("Enter number of squares per side for the new grid.");
+            squares_per_side = prompt("Enter number of squares per side for the new grid.");
         }
         
-        for (let i = 0; i < n; i++)
+        gridSquares = squares_per_side ** 2;
+
+        for (let i = 0; i < gridSquares; i++)
         {
             let new_div = document.createElement("div");
+            new_div.textContent = "I'm a div."
             container.appendChild(new_div);
         }
     }
