@@ -2,7 +2,27 @@ h1 {
     text-align: center;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+
 .container div{
     display: flex;
+    color: white;
+    flex: 1;
+    
+}
+
+.container div:hover{
+    background-color: blue;
+}
+
+.btn {
+    margin-bottom: 25px;
 }
 
