@@ -18,8 +18,9 @@ h1 {
     color: white;    
     margin: 0 0 0;
     padding: 0 0 0;
-    width: calc(100%/10);
+    width: calc(100%/5);
     aspect-ratio: 1 / 1;
+    text-indent: -9999px;
 }
 
 .container div:hover{
