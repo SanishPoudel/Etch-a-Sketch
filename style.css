@@ -1,3 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
 h1 {
     text-align: center;
 }
@@ -11,6 +20,8 @@ h1 {
     border-color: black;
     margin: 0 0 0;
     padding: 0 0 0;
+    width: 35vw;
+    aspect-ratio: 1 / 1;
 }
 
 .container div{
@@ -18,17 +29,16 @@ h1 {
     color: white;    
     margin: 0 0 0;
     padding: 0 0 0;
-    width: calc(100%/5);
+    width: calc(100%/1);
     aspect-ratio: 1 / 1;
     text-indent: -9999px;
 }
 
 .container div:hover{
-    background-color: blue;
-    color: blue;
+    background-color: black;
 }
 
 .btn {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
