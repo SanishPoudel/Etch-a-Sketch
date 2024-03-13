@@ -21,6 +21,22 @@ function create_divs(squares_per_side)
             div.style.width = "calc(100% / " + grid_squares_per_side + ")";
         }
     )
+
+    items.forEach
+    (   item =>
+        {
+            console.log("1st step complete");
+            item.addEventListener
+            (
+                "mouseover", () =>
+                {
+                    console.log("2nd step complete");
+                    item.classList.add("permahover");
+                }
+            )
+        }
+    )
+
 }
 
 create_divs(16);
